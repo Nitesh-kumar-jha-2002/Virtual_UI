@@ -13,8 +13,11 @@ const app = express();
 
 app.use(
   cors({
-    origin: "https://virtual-ui-1-g2i2.onrender.com", 
-    credentials: true,               
+    origin: [
+      "http://localhost:5173",
+      "https://virtual-ui-1-g2i2.onrender.com"
+    ],
+    credentials: true,
   })
 );
 
