@@ -16,7 +16,7 @@ import {
   setUserData
 } from './redux/userSlice';
 
-export const ServerUrl = "http://localhost:8000";
+export const ServerUrl = "https://virtual-ui-bp0a.onrender.com";
 
 function App() {
   const dispatch = useDispatch();
